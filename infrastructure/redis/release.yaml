@@ -11,9 +11,9 @@ spec:
       chart: redis
       sourceRef:
         kind: HelmRepository
-        name: bitnami
+        name: helm-charts
         namespace: cluster-config
-      version: "16.x"
+      version: "17.x"
   interval: 1h0m0s
   install:
     remediation:
